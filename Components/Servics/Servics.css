@@ -11,7 +11,7 @@ a:not(#Home):hover{
     background-color: papayawhip;
 }
 .content{
-    margin-left: 10vw;
+    margin-left: 20vw;
 }
 #paragraph{
     font-size: large;
