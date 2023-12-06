@@ -1,0 +1,19 @@
+#navbarNav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#login:active{
+    background-color: lightgreen;
+}
+
+a:not(#Home):hover{
+    background-color: papayawhip;
+}
+.content{
+    margin-left: 20vw;
+}
+
+h1{
+    font-size: xx-large;
+}

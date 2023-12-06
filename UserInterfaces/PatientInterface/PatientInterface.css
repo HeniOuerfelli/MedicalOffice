@@ -1,0 +1,20 @@
+.input-group {
+    width:500px;
+    margin: 0 auto;
+}
+
+.nav {
+    margin: 0 auto;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.text-container {
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
