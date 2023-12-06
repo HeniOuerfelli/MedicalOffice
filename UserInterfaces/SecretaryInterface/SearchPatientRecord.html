@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Search record</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" id="Home" href="/UserInterfaces/SecretaryInterface/SecretaryInterface.html">
+            <img src="/Assets/icon.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+            YourDoctor
+          </a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Manage RDV
+                </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/UserInterfaces/SecretaryInterface/Calendar.html">Consult calendar</a></li>
+                    <li><a class="dropdown-item" href="/UserInterfaces/SecretaryInterface/ManageRDV.html">Manage RDV Requests</a></li>
+                    <li><a class="dropdown-item" href="/UserInterfaces/SecretaryInterface/ManageTeleRequests.html">Manage Teleconsultation Requets</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Manage Patient Record
+                </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/UserInterfaces/SecretaryInterface/SearchPatientRecord.html">Search Record</a></li>
+                    <li><a class="dropdown-item" href="/UserInterfaces/SecretaryInterface/AddRecord.html">Add Record</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Manage CNAM folder
+                </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/UserInterfaces/SecretaryInterface/SearchCNAM.html">Search CNAM folder</a></li>
+                    <li><a class="dropdown-item" href="/UserInterfaces/SecretaryInterface/AddCNAM.html">Add CNAM folder</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Manage Payment
+                </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/UserInterfaces/SecretaryInterface/AddExpense.html">Add Expense</a></li>
+                    <li><a class="dropdown-item" href="/UserInterfaces/SecretaryInterface/AddRecipe.html">Add Recipe</a></li>
+                    <li><a class="dropdown-item" href="/UserInterfaces/SecretaryInterface/ConsultBilan.html">Consult Check-up</a></li>
+                  </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+        <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Enter patient name" aria-label="Search">
+                
+                    <button class="btn btn-outline-success" type="submit">
+                        <a class="nav-link" id="provideCertificate" href="#"> Search Record </a>
+                    </button>
+            </form>
+        </div>
+    </div>
+  </body>
+</html>
