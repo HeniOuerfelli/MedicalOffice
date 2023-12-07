@@ -18,3 +18,25 @@
     padding: 20px;
     margin-bottom: 20px;
 }
+
+.full-page-background {
+    background-image: url('/Assets/patient.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+#navbarNav{
+    display: flex;
+    justify-content: flex-end;
+}
+a:not(#Home):hover{
+    background-color: papayawhip;
+}
+.content{
+    margin-left: 5vw;
+    margin-right: 70vw;
+}
+
+#paragraph{
+    font-size: xx-large;
+}
